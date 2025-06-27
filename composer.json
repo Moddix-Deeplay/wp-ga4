@@ -1,0 +1,16 @@
+{
+  "name": "moddix/wp-ga4",
+  "description": "WordPress plugin for integrating Google Analytics 4",
+  "version": "1.4.0",
+  "type": "wordpress-plugin",
+  "require": {
+    "google/apiclient": "^2.18",
+    "symfony/cache": "^7.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WP_GA4\\": "src/"
+    }
+  }
+}
