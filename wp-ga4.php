@@ -2,13 +2,11 @@
 /*
 Plugin Name: WP GA4
 Description: WordPress plugin for integrating Google Analytics 4
-Version: 1.4.0
+Version: 1.4.1
 */
 
 use WP_GA4\Cache;
 use WP_GA4\GoogleAnalytics;
-
-require_once 'vendor/autoload.php';
 
 // Инициализация плагина
 
